@@ -1,66 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I believe that numbers tell stories — sometimes quietly, sometimes in ways that surprise us.\nI’m fascinated by how data can reveal patterns that help us understand people, systems, and possibilities.\nMost days, I’m working on problems that live at the edge of statistics, machine learning, and communication — figuring out how to make insights feel human again.\n\nNow\nI’m currently a PhD student in Statistics, exploring how modern methods in optimization and experimental design can make real-world decisions smarter and more efficient.\nAlong the way, I’m learning to translate complex statistical ideas into stories that inspire — whether that’s through writing, teaching, or building tools that help others see data differently.\n\n\nPreviously\nBefore diving deep into research, I spent time studying the foundations of data science, learning how numbers shape narratives, and building small projects that blend analytics with creativity.\nThat mix of art and analysis is something I still carry into everything I do.\n\n\nElsewhere\nYou can find me online here:\n\n🧠 GitHub\n💼 LinkedIn\n✍️ WordPress\n📧 Email\n\n\nBuilt with love and Quarto. Updated {{&lt; today &gt;}}."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Email: amakyekojodavid@gmail.com\nLinkedIn: linkedin.com/in/david-amakye\nGitHub: github.com/RealKingDavid"
-  },
-  {
-    "objectID": "blog/intro.html",
-    "href": "blog/intro.html",
-    "title": "Here, data science lives on!",
-    "section": "",
-    "text": "Here is a place where I share brief posts about my current activities in data science and statistics."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "David K. Amakye",
     "section": "",
     "text": "David K. Amakye\n\n\nData Scientist | Data Storyteller | Statistician\n\nView Portfolio Read Blog\n\n\nExplore:\n- About Me\n- Blog Posts\n- Contact"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Welcome to my blog! Here I share thoughts on data science, and statistics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Source in the Age of AI: More Important Than Ever\n\n\nWhy openness matters even more now\n\n\n\n\n\nMarch 10, 2026\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\nHere, data science lives on!\n\n\nLet’s do this!\n\n\n\n\n\nOctober 25, 2025\n\n1 min\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/opensource-in-ai.html",
-    "href": "blog/opensource-in-ai.html",
-    "title": "Open Source in the Age of AI: More Important Than Ever",
-    "section": "",
-    "text": "Every few years, something comes along that makes the question of open vs. closed feel urgent in a new way. Right now, that thing is AI and specifically, the large models that are reshaping how software gets written, how decisions get made, and how information gets filtered.\nThe stakes of openness have never been higher.\nHere’s the tension: the most capable AI systems today are mostly closed. The weights aren’t public. The training data isn’t disclosed. The reasoning process is opaque even to the people running them. You interact with these systems through an API, and you take on faith that they’re doing what you think they’re doing.\nThat’s a significant amount of trust to extend to any system, let alone one that’s increasingly embedded in consequential decisions."
-  },
-  {
-    "objectID": "blog/opensource-in-ai.html#why-openness-matters",
-    "href": "blog/opensource-in-ai.html#why-openness-matters",
-    "title": "Open Source in the Age of AI: More Important Than Ever",
-    "section": "Why Openness Matters",
-    "text": "Why Openness Matters\nOpen source AI doesn’t solve everything. Open weights don’t guarantee interpretability. Releasing a model doesn’t automatically tell you what it was trained on or what biases it inherited. Openness is necessary but not sufficient. But it’s still necessary.\nWhen a model’s weights are public, researchers can study it. When training code is available, problems can be reproduced and debugged. When the community can audit rather than just observe, accountability has somewhere to land. We’ve seen this play out already. Some of the most important findings about how large language models behave — how they fail, what they’re sensitive to, what they’re quietly optimising for — have come from researchers who could actually get inside the thing. That kind of scrutiny is only possible when something is open."
-  },
-  {
-    "objectID": "blog/opensource-in-ai.html#the-concentration-question",
-    "href": "blog/opensource-in-ai.html#the-concentration-question",
-    "title": "Open Source in the Age of AI: More Important Than Ever",
-    "section": "The Concentration Question",
-    "text": "The Concentration Question\nThere’s also the concentration question. Closed AI systems tend to centralise power. A handful of companies control the most capable models, which means they control a growing share of what’s technically possible. Open source is one of the few mechanisms we have to counteract that — to ensure that capability doesn’t become permanently gated behind a small number of commercial relationships."
-  },
-  {
-    "objectID": "blog/opensource-in-ai.html#the-path-forward",
-    "href": "blog/opensource-in-ai.html#the-path-forward",
-    "title": "Open Source in the Age of AI: More Important Than Ever",
-    "section": "The Path Forward",
-    "text": "The Path Forward\nI’m not naive about this. Building frontier AI is genuinely expensive. There are real reasons organisations don’t open-source everything. But the direction matters, and the pressure matters. The open source community pushing for transparency, reproducibility, and accessible models is doing important work — not just for software idealists, but for everyone who’ll eventually be on the receiving end of these systems. We spent decades building an open web and then watched it slowly close. I’d rather not repeat that with AI. The time to care about openness is before it’s gone."
   },
   {
     "objectID": "cv.html",
@@ -145,5 +89,61 @@
     "title": "Curriculum Vitae",
     "section": "Leadership & Service",
     "text": "Leadership & Service\n\nHealth and Safety Champion, Tema Fuel Company\n\nDeputy Finance Head, Welfare Committee (NUPS-G)\n\nExecutive Committee Member, AMSS Trade and Technology (TRATECH)"
+  },
+  {
+    "objectID": "blog/opensource-in-ai.html",
+    "href": "blog/opensource-in-ai.html",
+    "title": "Open Source in the Age of AI: More Important Than Ever",
+    "section": "",
+    "text": "Every few years, something comes along that makes the question of open vs. closed feel urgent in a new way. Right now, that thing is AI and specifically, the large models that are reshaping how software gets written, how decisions get made, and how information gets filtered.\nThe stakes of openness have never been higher.\nHere’s the tension: the most capable AI systems today are mostly closed. The weights aren’t public. The training data isn’t disclosed. The reasoning process is opaque even to the people running them. You interact with these systems through an API, and you take on faith that they’re doing what you think they’re doing.\nThat’s a significant amount of trust to extend to any system, let alone one that’s increasingly embedded in consequential decisions."
+  },
+  {
+    "objectID": "blog/opensource-in-ai.html#why-openness-matters",
+    "href": "blog/opensource-in-ai.html#why-openness-matters",
+    "title": "Open Source in the Age of AI: More Important Than Ever",
+    "section": "Why Openness Matters",
+    "text": "Why Openness Matters\nOpen source AI doesn’t solve everything. Open weights don’t guarantee interpretability. Releasing a model doesn’t automatically tell you what it was trained on or what biases it inherited. Openness is necessary but not sufficient. But it’s still necessary.\nWhen a model’s weights are public, researchers can study it. When training code is available, problems can be reproduced and debugged. When the community can audit rather than just observe, accountability has somewhere to land. We’ve seen this play out already. Some of the most important findings about how large language models behave — how they fail, what they’re sensitive to, what they’re quietly optimising for — have come from researchers who could actually get inside the thing. That kind of scrutiny is only possible when something is open."
+  },
+  {
+    "objectID": "blog/opensource-in-ai.html#the-concentration-question",
+    "href": "blog/opensource-in-ai.html#the-concentration-question",
+    "title": "Open Source in the Age of AI: More Important Than Ever",
+    "section": "The Concentration Question",
+    "text": "The Concentration Question\nThere’s also the concentration question. Closed AI systems tend to centralise power. A handful of companies control the most capable models, which means they control a growing share of what’s technically possible. Open source is one of the few mechanisms we have to counteract that — to ensure that capability doesn’t become permanently gated behind a small number of commercial relationships."
+  },
+  {
+    "objectID": "blog/opensource-in-ai.html#the-path-forward",
+    "href": "blog/opensource-in-ai.html#the-path-forward",
+    "title": "Open Source in the Age of AI: More Important Than Ever",
+    "section": "The Path Forward",
+    "text": "The Path Forward\nI’m not naive about this. Building frontier AI is genuinely expensive. There are real reasons organisations don’t open-source everything. But the direction matters, and the pressure matters. The open source community pushing for transparency, reproducibility, and accessible models is doing important work — not just for software idealists, but for everyone who’ll eventually be on the receiving end of these systems. We spent decades building an open web and then watched it slowly close. I’d rather not repeat that with AI. The time to care about openness is before it’s gone."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: amakyekojodavid@gmail.com\nLinkedIn: linkedin.com/in/david-amakye\nGitHub: github.com/RealKingDavid"
+  },
+  {
+    "objectID": "blog/intro.html",
+    "href": "blog/intro.html",
+    "title": "Here, data science lives on!",
+    "section": "",
+    "text": "Here is a place where I share brief posts about my current activities in data science and statistics."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here I share thoughts on data science, and statistics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Source in the Age of AI: More Important Than Ever\n\n\nWhy openness matters even more now\n\n\n\n\n\nMarch 10, 2026\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\nHere, data science lives on!\n\n\nLet’s do this!\n\n\n\n\n\nOctober 25, 2025\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I believe that numbers tell stories — sometimes quietly, sometimes in ways that surprise us.\nI’m fascinated by how data can reveal patterns that help us understand people, systems, and possibilities.\nMost days, I’m working on problems that live at the edge of statistics, machine learning, and communication — figuring out how to make insights feel human again.\n\nNow\nI’m currently a PhD student in Statistics, exploring how modern methods in optimization and experimental design can make real-world decisions smarter and more efficient.\nAlong the way, I’m learning to translate complex statistical ideas into stories that inspire — whether that’s through writing, teaching, or building tools that help others see data differently.\n\n\nPreviously\nBefore diving deep into research, I spent time studying the foundations of data science, learning how numbers shape narratives, and building small projects that blend analytics with creativity.\nThat mix of art and analysis is something I still carry into everything I do.\n\n\nElsewhere\nYou can find me online here:\n\n🧠 GitHub\n💼 LinkedIn\n✍️ WordPress\n📧 Email\n\n\nBuilt with love and Quarto. Updated {{&lt; today &gt;}}."
   }
 ]
