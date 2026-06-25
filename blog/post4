@@ -1,0 +1,76 @@
+---
+title: "From Idea to Action: Introducing the Structured Thinking Skill"
+date: 2026-06-24
+slug: structured-thinking-skill
+tags: [ai, skills, productivity, open-source]
+subtitle: "A free, open-source AI skill that turns any idea into a clear, phased plan"
+image: ../assets/images/structured_thinking_blog_cover.png
+summary: "Most ideas don't fail because they were bad. They fail because nobody knew what to do first. The Structured Thinking skill fixes that."
+---
+
+## The problem with ideas
+
+Everyone has them. The startup concept that keeps you up at night. The app you've been sketching in the margins of notebooks. The creative project you keep saying you'll start "when things slow down."
+
+The bottleneck is rarely the idea itself. It's the gap between *having* an idea and *knowing what to do first*.
+
+That gap is what I built the **Structured Thinking** skill to close.
+
+## What it is
+
+Structured Thinking is an open-source AI skill — a markdown file you install into Claude Code, Cursor, Windsurf, or any AI agent that supports skills. Once installed, whenever you describe an idea to your AI assistant, the skill activates and walks you through a structured breakdown process.
+
+It doesn't just give you generic advice. It first classifies your idea into one of four types:
+
+- **Business / Startup** — validating problems, building MVPs, going to market
+- **Product / UX Design** — research, prototyping, testing, handoff
+- **Creative Projects** — writing, film, music, games, content
+- **Technical / Engineering** — architecture, implementation, testing, deployment
+
+Then it generates a tailored framework: phases, tasks, and granular subtasks specific to your type of idea. Not a generic checklist — a plan you can actually follow.
+
+## What it produces
+
+For any idea, the skill outputs:
+
+- **3–5 phases** mapped to the natural arc of that idea type
+- **Tasks per phase** — concrete things to do, not vague categories
+- **Subtasks** — specific enough that you know exactly what "doing it" looks like
+- **Key risks** to watch out for before you're too deep to course-correct
+- **Your first 3 actions** — what to do this week to build momentum
+
+## A quick example
+
+Say you tell your AI assistant: *"I want to build a SaaS tool for freelance designers to manage client invoices."*
+
+The skill recognizes this as a Business / Startup idea and generates a framework starting with customer validation — interviewing freelance designers, testing willingness to pay, mapping the competitive landscape — before a single line of code gets written. It surfaces risks like building before validating, and gives you a concrete first action: schedule five customer interviews this week.
+
+That's the difference between spinning and shipping.
+
+## Why I built it as a skill
+
+I could have built this as a standalone app. But skills are a better fit for how people actually work. They live inside the tools you already use. They don't require a new login, a new tab, or a context switch. You just describe your idea and the framework appears alongside your work.
+
+Skills are also open and forkable. If the business framework doesn't match how you think about startups, you can edit it. If you want to add a new idea type — social enterprise, hardware, research — you can open a pull request.
+
+That's the bet: a shared, community-maintained thinking framework is more useful than one person's opinion locked inside a product.
+
+## Get it
+
+The skill is free and open source on GitHub:
+
+👉 [github.com/RealKingDavid/StructuredThinkingSkill](https://github.com/RealKingDavid/StructuredThinkingSkill)
+
+**Install in one line:**
+
+```bash
+npx skills add RealKingDavid/StructuredThinkingSkill -g -y
+```
+
+Or clone it and drop the files into your agent's skills folder manually — instructions are in the README.
+
+If you use it and have ideas for making it better, PRs are open. The frameworks will only get sharper with more minds on them.
+
+---
+
+*Built with Claude. Shipped on GitHub. For anyone with an idea and not enough hours.*
