@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-24">
 
-<title>Blog – David K. Amakye</title>
+<title>Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research – David K. Amakye</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,65 +71,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date','listing-image','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../resources/styles.css">
 </head>
@@ -206,14 +147,33 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#notes-from-carnegie-mellon-probability-pdes-and-the-future-of-research" id="toc-notes-from-carnegie-mellon-probability-pdes-and-the-future-of-research" class="nav-link active" data-scroll-target="#notes-from-carnegie-mellon-probability-pdes-and-the-future-of-research">Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research</a>
+  <ul class="collapse">
+  <li><a href="#what-makes-good-mathematics" id="toc-what-makes-good-mathematics" class="nav-link" data-scroll-target="#what-makes-good-mathematics">What Makes Good Mathematics?</a></li>
+  <li><a href="#the-future-will-reward-practicality" id="toc-the-future-will-reward-practicality" class="nav-link" data-scroll-target="#the-future-will-reward-practicality">The Future Will Reward Practicality</a></li>
+  <li><a href="#choosing-research-problems" id="toc-choosing-research-problems" class="nav-link" data-scroll-target="#choosing-research-problems">Choosing Research Problems</a>
+  <ul class="collapse">
+  <li><a href="#talk-to-people" id="toc-talk-to-people" class="nav-link" data-scroll-target="#talk-to-people">1. Talk to People</a></li>
+  <li><a href="#schedule-time-to-think" id="toc-schedule-time-to-think" class="nav-link" data-scroll-target="#schedule-time-to-think">2. Schedule Time to Think</a></li>
+  <li><a href="#understand-proofs-deeply" id="toc-understand-proofs-deeply" class="nav-link" data-scroll-target="#understand-proofs-deeply">3. Understand Proofs Deeply</a></li>
+  </ul></li>
+  <li><a href="#obsession-openness-and-focus" id="toc-obsession-openness-and-focus" class="nav-link" data-scroll-target="#obsession-openness-and-focus">Obsession, Openness, and Focus</a></li>
+  <li><a href="#a-personal-reminder" id="toc-a-personal-reminder" class="nav-link" data-scroll-target="#a-personal-reminder">A Personal Reminder</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research</h1>
+<p class="subtitle lead">Reflections from the Summer School on Topics at the Interface of Probability and PDE</p>
 </div>
 
 
@@ -221,6 +181,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 24, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -230,85 +196,88 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to my blog! Here I share thoughts on data science, and statistics.</p>
+<section id="notes-from-carnegie-mellon-probability-pdes-and-the-future-of-research" class="level1">
+<h1>Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research</h1>
+<p>Earlier this month, I had the opportunity to attend the <strong>Summer School on Topics at the Interface of Probability and PDEs</strong> at Carnegie Mellon University. The program brought together graduate students, postdoctoral researchers, and faculty interested in the rich interactions between probability theory and partial differential equations.</p>
+<p>As a statistics PhD student, I was initially drawn by the mathematics. The lectures exposed us to modern research problems where probabilistic methods and PDE techniques complement each other in surprising ways. Yet one of the most memorable parts of the experience came not from a theorem or proof, but from a career discussion that forced me to think more deeply about research itself.</p>
+<section id="what-makes-good-mathematics" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-good-mathematics">What Makes Good Mathematics?</h2>
+<p>One statement from the career talk stayed with me:</p>
+<blockquote class="blockquote">
+<p>Good mathematics is interpretable, structured, and interconnected.</p>
+</blockquote>
+<p>In a world increasingly driven by artificial intelligence, there is a temptation to optimize for speed alone. We can now obtain explanations, code, and even proofs faster than ever before. Yet speed without understanding can be dangerous.</p>
+<p>The speaker emphasized the importance of balancing our own thought process with the convenience of AI tools. Rather than outsourcing thinking entirely, we should use these tools to amplify understanding. The goal is not merely to arrive at answers, but to build mental models that connect ideas across fields.</p>
+<p>Perhaps that is what makes mathematics enduring: its ability to reveal structure beneath complexity.</p>
+</section>
+<section id="the-future-will-reward-practicality" class="level2">
+<h2 class="anchored" data-anchor-id="the-future-will-reward-practicality">The Future Will Reward Practicality</h2>
+<p>Another observation was both simple and provocative.</p>
+<p>For many years, degrees have often served as signals of intelligence or persistence. Increasingly, however, the market appears to be shifting toward practicality. The question will become less about credentials and more about capability.</p>
+<p>Who can solve meaningful problems?</p>
+<p>Who can produce high-quality work efficiently?</p>
+<p>Who can adapt and learn quickly?</p>
+<p>The value of expertise will remain, but its demonstration may look different than it has in the past.</p>
+</section>
+<section id="choosing-research-problems" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-research-problems">Choosing Research Problems</h2>
+<p>One question I continuously wrestle with is:</p>
+<blockquote class="blockquote">
+<p>How do you choose good research problems?</p>
+</blockquote>
+<p>The discussion offered a practical framework.</p>
+<section id="talk-to-people" class="level3">
+<h3 class="anchored" data-anchor-id="talk-to-people">1. Talk to People</h3>
+<p>Interesting problems often emerge through conversation. Different researchers see different gaps, frustrations, and opportunities. Listening carefully can reveal questions that would never appear in a textbook.</p>
+</section>
+<section id="schedule-time-to-think" class="level3">
+<h3 class="anchored" data-anchor-id="schedule-time-to-think">2. Schedule Time to Think</h3>
+<p>Research does not happen only at a desk covered in papers.</p>
+<p>The suggestion was to intentionally create time for brainstorming—whether through solitary reflection, conversations with colleagues, or even structured sessions with AI tools. Creativity deserves a place on the calendar.</p>
+</section>
+<section id="understand-proofs-deeply" class="level3">
+<h3 class="anchored" data-anchor-id="understand-proofs-deeply">3. Understand Proofs Deeply</h3>
+<p>Do not stop at understanding <em>that</em> a proof works.</p>
+<p>Ask yourself:</p>
+<ul>
+<li>What is the key idea?</li>
+<li>How would I explain it to someone else?</li>
+<li>How would I have discovered this argument myself?</li>
+</ul>
+<p>The deeper understanding often lies beneath the technical details.</p>
+</section>
+</section>
+<section id="obsession-openness-and-focus" class="level2">
+<h2 class="anchored" data-anchor-id="obsession-openness-and-focus">Obsession, Openness, and Focus</h2>
+<p>The speaker described strong researchers as possessing a combination of seemingly contradictory traits:</p>
+<ul>
+<li>Obsessive enough to pursue difficult questions for long periods.</li>
+<li>Open-minded enough to abandon assumptions when evidence points elsewhere.</li>
+</ul>
+<p>This resonated with me.</p>
+<p>Many of the opportunities that have shaped my academic journey came from pursuing interests deeply rather than broadly. Excellence often requires sustained attention.</p>
+<p>One piece of advice for the transition from PhD to postdoctoral research was particularly refreshing:</p>
+<blockquote class="blockquote">
+<p>Do research. Don’t worry.</p>
+</blockquote>
+<p>Worry creates noise. Research requires focus.</p>
+<p>When we spend too much energy on uncertainty, we lose energy for discovery. The challenge is not eliminating uncertainty but learning to work despite it.</p>
+</section>
+<section id="a-personal-reminder" class="level2">
+<h2 class="anchored" data-anchor-id="a-personal-reminder">A Personal Reminder</h2>
+<p>As I reflected on the week, I realized that several of these ideas connect to notes I have kept for years.</p>
+<p>I maintain a catalog of research ideas, questions, and curiosities. Some are half-formed. Some may never become projects. Yet the advice from the summer school reminded me that important problems do not disappear simply because they are difficult. Sometimes they need time.</p>
+<p>Most importantly, I left Carnegie Mellon with a renewed conviction:</p>
+<p>If I enjoy what I am doing, and I have the opportunity to pursue it, then I should focus and do it.</p>
+<p>Research is difficult. Mathematics is difficult. Building expertise is difficult.</p>
+<p>But there is a special kind of joy in diving deeply into something that genuinely fascinates you.</p>
+<p>For me, that may have been the most valuable lesson of the week.</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1782259200000" data-listing-file-modified-sort="1782350490981" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
-<div class="thumbnail"><a href="../blog/cmu-pde-probability.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/cmu-pde-probability1.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/cmu-pde-probability.html" class="no-external">Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/cmu-pde-probability.html" class="no-external">Reflections from the Summer School on Topics at the Interface of Probability and PDE</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/cmu-pde-probability.html" class="no-external">
-<div class="listing-date">
-June 24, 2026
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1773100800000" data-listing-file-modified-sort="1782350490982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="406">
-<div class="thumbnail"><a href="../blog/opensource-in-ai.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/post1.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/opensource-in-ai.html" class="no-external">Open Source in the Age of AI: More Important Than Ever</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/opensource-in-ai.html" class="no-external">Why openness matters even more now</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/opensource-in-ai.html" class="no-external">
-<div class="listing-date">
-March 10, 2026
-</div>
-<div class="listing-reading-time">3 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1761350400000" data-listing-file-modified-sort="1782350490982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="../blog/intro.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/conny.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/intro.html" class="no-external">Here, data science lives on!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/intro.html" class="no-external">Let’s do this!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/intro.html" class="no-external">
-<div class="listing-date">
-October 25, 2025
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
