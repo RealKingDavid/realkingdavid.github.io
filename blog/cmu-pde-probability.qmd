@@ -40,6 +40,8 @@ Who can adapt and learn quickly?
 
 The value of expertise will remain, but its demonstration may look different than it has in the past.
 
+![](../assets/images/cmu-pde-probability2.jpeg){fig-align="center"}
+
 ## Choosing Research Problems
 
 One question I continuously wrestle with is:
@@ -69,6 +71,8 @@ Ask yourself:
 * How would I have discovered this argument myself?
 
 The deeper understanding often lies beneath the technical details.
+
+![](../assets/images/cmu-pde-probability3.jpeg){fig-align="center"}
 
 ## Obsession, Openness, and Focus
 
@@ -100,6 +104,8 @@ Most importantly, I left Carnegie Mellon with a renewed conviction:
 If I enjoy what I am doing, and I have the opportunity to pursue it, then I should focus and do it.
 
 Research is difficult. Mathematics is difficult. Building expertise is difficult.
+
+![](../assets/images/cmu-pde-probability4.jpeg){fig-align="center"}
 
 But there is a special kind of joy in diving deeply into something that genuinely fascinates you.
 
