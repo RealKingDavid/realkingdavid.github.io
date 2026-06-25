@@ -4,7 +4,7 @@ date: 2026-06-24
 slug: carnegie-mellon-probability-pde
 tags: [research, mathematics, probability, phd, personal]
 subtitle: "Reflections from the Summer School on Topics at the Interface of Probability and PDE"
-image: ../assets/images/cmu-pde-probability1.png
+image: ../assets/images/cmu-pde-probability1.jpeg
 summary: "A week at Carnegie Mellon exploring the intersection of probability and PDEs, and a career talk that challenged how I think about research, productivity, and the future of scientific work."
 ---
 
