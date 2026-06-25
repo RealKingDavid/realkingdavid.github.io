@@ -1,6 +1,6 @@
 ---
 title: "Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research"
-date: 2026-06-24
+date: 2026-06-20
 slug: carnegie-mellon-probability-pde
 tags: [research, mathematics, probability, phd, personal]
 subtitle: "Reflections from the Summer School on Topics at the Interface of Probability and PDE"
