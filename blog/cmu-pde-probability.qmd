@@ -1,5 +1,4 @@
 ---
-
 title: "Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research"
 date: 2026-06-24
 slug: carnegie-mellon-probability-pde
@@ -7,7 +6,7 @@ tags: [research, mathematics, probability, phd, personal]
 subtitle: "Reflections from the Summer School on Topics at the Interface of Probability and PDE"
 image: ../assets/images/cmu-pde-probability1.png
 summary: "A week at Carnegie Mellon exploring the intersection of probability and PDEs, and a career talk that challenged how I think about research, productivity, and the future of scientific work."
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research
 
@@ -105,5 +104,3 @@ Research is difficult. Mathematics is difficult. Building expertise is difficult
 But there is a special kind of joy in diving deeply into something that genuinely fascinates you.
 
 For me, that may have been the most valuable lesson of the week.
-
----
