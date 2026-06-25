@@ -119,11 +119,53 @@
     "text": "The Path Forward\nI’m not naive about this. Building frontier AI is genuinely expensive. There are real reasons organisations don’t open-source everything. But the direction matters, and the pressure matters. The open source community pushing for transparency, reproducibility, and accessible models is doing important work — not just for software idealists, but for everyone who’ll eventually be on the receiving end of these systems. We spent decades building an open web and then watched it slowly close. I’d rather not repeat that with AI. The time to care about openness is before it’s gone."
   },
   {
-    "objectID": "blog/intro.html",
-    "href": "blog/intro.html",
-    "title": "Here, data science lives on!",
+    "objectID": "blog/post4.html",
+    "href": "blog/post4.html",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
     "section": "",
-    "text": "Here is a place where I share brief posts about my current activities in data science and statistics."
+    "text": "Everyone has them. The startup concept that keeps you up at night. The app you’ve been sketching in the margins of notebooks. The creative project you keep saying you’ll start “when things slow down.”\nThe bottleneck is rarely the idea itself. It’s the gap between having an idea and knowing what to do first.\nThat gap is what I built the Structured Thinking skill to close."
+  },
+  {
+    "objectID": "blog/post4.html#the-problem-with-ideas",
+    "href": "blog/post4.html#the-problem-with-ideas",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
+    "section": "",
+    "text": "Everyone has them. The startup concept that keeps you up at night. The app you’ve been sketching in the margins of notebooks. The creative project you keep saying you’ll start “when things slow down.”\nThe bottleneck is rarely the idea itself. It’s the gap between having an idea and knowing what to do first.\nThat gap is what I built the Structured Thinking skill to close."
+  },
+  {
+    "objectID": "blog/post4.html#what-it-is",
+    "href": "blog/post4.html#what-it-is",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
+    "section": "What it is",
+    "text": "What it is\nStructured Thinking is an open-source AI skill — a markdown file you install into Claude Code, Cursor, Windsurf, or any AI agent that supports skills. Once installed, whenever you describe an idea to your AI assistant, the skill activates and walks you through a structured breakdown process.\nIt doesn’t just give you generic advice. It first classifies your idea into one of four types:\n\nBusiness / Startup — validating problems, building MVPs, going to market\nProduct / UX Design — research, prototyping, testing, handoff\nCreative Projects — writing, film, music, games, content\nTechnical / Engineering — architecture, implementation, testing, deployment\n\nThen it generates a tailored framework: phases, tasks, and granular subtasks specific to your type of idea. Not a generic checklist — a plan you can actually follow."
+  },
+  {
+    "objectID": "blog/post4.html#what-it-produces",
+    "href": "blog/post4.html#what-it-produces",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
+    "section": "What it produces",
+    "text": "What it produces\nFor any idea, the skill outputs:\n\n3–5 phases mapped to the natural arc of that idea type\nTasks per phase — concrete things to do, not vague categories\nSubtasks — specific enough that you know exactly what “doing it” looks like\nKey risks to watch out for before you’re too deep to course-correct\nYour first 3 actions — what to do this week to build momentum"
+  },
+  {
+    "objectID": "blog/post4.html#a-quick-example",
+    "href": "blog/post4.html#a-quick-example",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
+    "section": "A quick example",
+    "text": "A quick example\nSay you tell your AI assistant: “I want to build a SaaS tool for freelance designers to manage client invoices.”\nThe skill recognizes this as a Business / Startup idea and generates a framework starting with customer validation — interviewing freelance designers, testing willingness to pay, mapping the competitive landscape — before a single line of code gets written. It surfaces risks like building before validating, and gives you a concrete first action: schedule five customer interviews this week.\nThat’s the difference between spinning and shipping."
+  },
+  {
+    "objectID": "blog/post4.html#why-i-built-it-as-a-skill",
+    "href": "blog/post4.html#why-i-built-it-as-a-skill",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
+    "section": "Why I built it as a skill",
+    "text": "Why I built it as a skill\nI could have built this as a standalone app. But skills are a better fit for how people actually work. They live inside the tools you already use. They don’t require a new login, a new tab, or a context switch. You just describe your idea and the framework appears alongside your work.\nSkills are also open and forkable. If the business framework doesn’t match how you think about startups, you can edit it. If you want to add a new idea type — social enterprise, hardware, research — you can open a pull request.\nThat’s the bet: a shared, community-maintained thinking framework is more useful than one person’s opinion locked inside a product."
+  },
+  {
+    "objectID": "blog/post4.html#get-it",
+    "href": "blog/post4.html#get-it",
+    "title": "From Idea to Action: Introducing the Structured Thinking Skill",
+    "section": "Get it",
+    "text": "Get it\nThe skill is free and open source on GitHub:\n👉 github.com/RealKingDavid/StructuredThinkingSkill\nInstall in one line:\nnpx skills add RealKingDavid/StructuredThinkingSkill -g -y\nOr clone it and drop the files into your agent’s skills folder manually — instructions are in the README.\nIf you use it and have ideas for making it better, PRs are open. The frameworks will only get sharper with more minds on them.\n\nBuilt with Claude. Shipped on GitHub. For anyone with an idea and not enough hours."
   },
   {
     "objectID": "contact.html",
@@ -131,6 +173,13 @@
     "title": "Contact",
     "section": "",
     "text": "Email: amakyekojodavid@gmail.com\nLinkedIn: linkedin.com/in/david-amakye\nGitHub: github.com/RealKingDavid"
+  },
+  {
+    "objectID": "blog/intro.html",
+    "href": "blog/intro.html",
+    "title": "Here, data science lives on!",
+    "section": "",
+    "text": "Here is a place where I share brief posts about my current activities in data science and statistics."
   },
   {
     "objectID": "blog/cmu-pde-probability.html",
@@ -179,7 +228,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to my blog! Here I share thoughts on data science, and statistics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes from Carnegie Mellon: Probability, PDEs, and the Future of Research\n\n\nReflections from the Summer School on Topics at the Interface of Probability and PDE\n\n\n\n\n\nJune 20, 2026\n\n4 min\n\n\n\n\n\n\n\n\n\n\n\nOpen Source in the Age of AI: More Important Than Ever\n\n\nWhy openness matters even more now\n\n\n\n\n\nMarch 10, 2026\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\nHere, data science lives on!\n\n\nLet’s do this!\n\n\n\n\n\nOctober 25, 2025\n\n1 min\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog! Here I share thoughts on data science, and statistics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Idea to Action: Introducing the Structured Thinking Skill\n\n\nA free, open-source AI skill that turns any idea into a clear, phased plan\n\n\n\n\n\nJune 24, 2026\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\nNotes from Carnegie Mellon: Probability, PDEs, and the Future of Research\n\n\nReflections from the Summer School on Topics at the Interface of Probability and PDE\n\n\n\n\n\nJune 20, 2026\n\n4 min\n\n\n\n\n\n\n\n\n\n\n\nOpen Source in the Age of AI: More Important Than Ever\n\n\nWhy openness matters even more now\n\n\n\n\n\nMarch 10, 2026\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\nHere, data science lives on!\n\n\nLet’s do this!\n\n\n\n\n\nOctober 25, 2025\n\n1 min\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

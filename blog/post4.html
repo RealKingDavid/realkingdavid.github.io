@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-24">
 
-<title>Blog – David K. Amakye</title>
+<title>From Idea to Action: Introducing the Structured Thinking Skill – David K. Amakye</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -33,8 +69,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,65 +106,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date','listing-image','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../resources/styles.css">
 </head>
@@ -206,14 +182,26 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-problem-with-ideas" id="toc-the-problem-with-ideas" class="nav-link active" data-scroll-target="#the-problem-with-ideas">The problem with ideas</a></li>
+  <li><a href="#what-it-is" id="toc-what-it-is" class="nav-link" data-scroll-target="#what-it-is">What it is</a></li>
+  <li><a href="#what-it-produces" id="toc-what-it-produces" class="nav-link" data-scroll-target="#what-it-produces">What it produces</a></li>
+  <li><a href="#a-quick-example" id="toc-a-quick-example" class="nav-link" data-scroll-target="#a-quick-example">A quick example</a></li>
+  <li><a href="#why-i-built-it-as-a-skill" id="toc-why-i-built-it-as-a-skill" class="nav-link" data-scroll-target="#why-i-built-it-as-a-skill">Why I built it as a skill</a></li>
+  <li><a href="#get-it" id="toc-get-it" class="nav-link" data-scroll-target="#get-it">Get it</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog</h1>
+<h1 class="title">From Idea to Action: Introducing the Structured Thinking Skill</h1>
+<p class="subtitle lead">A free, open-source AI skill that turns any idea into a clear, phased plan</p>
 </div>
 
 
@@ -221,6 +209,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 24, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -230,108 +224,62 @@ window.Quarto = {
 </header>
 
 
-<p>Welcome to my blog! Here I share thoughts on data science, and statistics.</p>
+<section id="the-problem-with-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem-with-ideas">The problem with ideas</h2>
+<p>Everyone has them. The startup concept that keeps you up at night. The app you’ve been sketching in the margins of notebooks. The creative project you keep saying you’ll start “when things slow down.”</p>
+<p>The bottleneck is rarely the idea itself. It’s the gap between <em>having</em> an idea and <em>knowing what to do first</em>.</p>
+<p>That gap is what I built the <strong>Structured Thinking</strong> skill to close.</p>
+</section>
+<section id="what-it-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-is">What it is</h2>
+<p>Structured Thinking is an open-source AI skill — a markdown file you install into Claude Code, Cursor, Windsurf, or any AI agent that supports skills. Once installed, whenever you describe an idea to your AI assistant, the skill activates and walks you through a structured breakdown process.</p>
+<p>It doesn’t just give you generic advice. It first classifies your idea into one of four types:</p>
+<ul>
+<li><strong>Business / Startup</strong> — validating problems, building MVPs, going to market</li>
+<li><strong>Product / UX Design</strong> — research, prototyping, testing, handoff</li>
+<li><strong>Creative Projects</strong> — writing, film, music, games, content</li>
+<li><strong>Technical / Engineering</strong> — architecture, implementation, testing, deployment</li>
+</ul>
+<p>Then it generates a tailored framework: phases, tasks, and granular subtasks specific to your type of idea. Not a generic checklist — a plan you can actually follow.</p>
+</section>
+<section id="what-it-produces" class="level2">
+<h2 class="anchored" data-anchor-id="what-it-produces">What it produces</h2>
+<p>For any idea, the skill outputs:</p>
+<ul>
+<li><strong>3–5 phases</strong> mapped to the natural arc of that idea type</li>
+<li><strong>Tasks per phase</strong> — concrete things to do, not vague categories</li>
+<li><strong>Subtasks</strong> — specific enough that you know exactly what “doing it” looks like</li>
+<li><strong>Key risks</strong> to watch out for before you’re too deep to course-correct</li>
+<li><strong>Your first 3 actions</strong> — what to do this week to build momentum</li>
+</ul>
+</section>
+<section id="a-quick-example" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-example">A quick example</h2>
+<p>Say you tell your AI assistant: <em>“I want to build a SaaS tool for freelance designers to manage client invoices.”</em></p>
+<p>The skill recognizes this as a Business / Startup idea and generates a framework starting with customer validation — interviewing freelance designers, testing willingness to pay, mapping the competitive landscape — before a single line of code gets written. It surfaces risks like building before validating, and gives you a concrete first action: schedule five customer interviews this week.</p>
+<p>That’s the difference between spinning and shipping.</p>
+</section>
+<section id="why-i-built-it-as-a-skill" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-built-it-as-a-skill">Why I built it as a skill</h2>
+<p>I could have built this as a standalone app. But skills are a better fit for how people actually work. They live inside the tools you already use. They don’t require a new login, a new tab, or a context switch. You just describe your idea and the framework appears alongside your work.</p>
+<p>Skills are also open and forkable. If the business framework doesn’t match how you think about startups, you can edit it. If you want to add a new idea type — social enterprise, hardware, research — you can open a pull request.</p>
+<p>That’s the bet: a shared, community-maintained thinking framework is more useful than one person’s opinion locked inside a product.</p>
+</section>
+<section id="get-it" class="level2">
+<h2 class="anchored" data-anchor-id="get-it">Get it</h2>
+<p>The skill is free and open source on GitHub:</p>
+<p>👉 <a href="https://github.com/RealKingDavid/StructuredThinkingSkill">github.com/RealKingDavid/StructuredThinkingSkill</a></p>
+<p><strong>Install in one line:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">npx</span> skills add RealKingDavid/StructuredThinkingSkill <span class="at">-g</span> <span class="at">-y</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Or clone it and drop the files into your agent’s skills folder manually — instructions are in the README.</p>
+<p>If you use it and have ideas for making it better, PRs are open. The frameworks will only get sharper with more minds on them.</p>
+<hr>
+<p><em>Built with Claude. Shipped on GitHub. For anyone with an idea and not enough hours.</em></p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1782259200000" data-listing-file-modified-sort="1782351508631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="539">
-<div class="thumbnail"><a href="../blog/post4.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/structured_thinking_blog_cover.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/post4.html" class="no-external">From Idea to Action: Introducing the Structured Thinking Skill</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/post4.html" class="no-external">A free, open-source AI skill that turns any idea into a clear, phased plan</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/post4.html" class="no-external">
-<div class="listing-date">
-June 24, 2026
-</div>
-<div class="listing-reading-time">3 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782351508630" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
-<div class="thumbnail"><a href="../blog/cmu-pde-probability.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/cmu-pde-probability1.jpeg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/cmu-pde-probability.html" class="no-external">Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/cmu-pde-probability.html" class="no-external">Reflections from the Summer School on Topics at the Interface of Probability and PDE</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/cmu-pde-probability.html" class="no-external">
-<div class="listing-date">
-June 20, 2026
-</div>
-<div class="listing-reading-time">4 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1773100800000" data-listing-file-modified-sort="1782351508631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="406">
-<div class="thumbnail"><a href="../blog/opensource-in-ai.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/post1.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/opensource-in-ai.html" class="no-external">Open Source in the Age of AI: More Important Than Ever</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/opensource-in-ai.html" class="no-external">Why openness matters even more now</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/opensource-in-ai.html" class="no-external">
-<div class="listing-date">
-March 10, 2026
-</div>
-<div class="listing-reading-time">3 min</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1761350400000" data-listing-file-modified-sort="1782351508631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<div class="thumbnail"><a href="../blog/intro.html" class="no-external">
-
-<img loading="lazy" src="../assets/images/conny.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/intro.html" class="no-external">Here, data science lives on!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/intro.html" class="no-external">Let’s do this!</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/intro.html" class="no-external">
-<div class="listing-date">
-October 25, 2025
-</div>
-<div class="listing-reading-time">1 min</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -2,6 +2,7 @@
   {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/post4.html",
       "/blog/cmu-pde-probability.html",
       "/blog/opensource-in-ai.html",
       "/blog/intro.html"
