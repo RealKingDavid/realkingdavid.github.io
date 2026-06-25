@@ -1,0 +1,107 @@
+---
+
+title: "Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research"
+date: 2026-06-24
+slug: carnegie-mellon-probability-pde
+tags: [research, mathematics, probability, phd, personal]
+subtitle: "Reflections from the Summer School on Topics at the Interface of Probability and PDE"
+image: ../assets/images/cmu-pde-probability1.png
+summary: "A week at Carnegie Mellon exploring the intersection of probability and PDEs, and a career talk that challenged how I think about research, productivity, and the future of scientific work."
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Notes from Carnegie Mellon: Probability, PDEs, and the Future of Research
+
+Earlier this month, I had the opportunity to attend the **Summer School on Topics at the Interface of Probability and PDEs** at Carnegie Mellon University. The program brought together graduate students, postdoctoral researchers, and faculty interested in the rich interactions between probability theory and partial differential equations.
+
+As a statistics PhD student, I was initially drawn by the mathematics. The lectures exposed us to modern research problems where probabilistic methods and PDE techniques complement each other in surprising ways. Yet one of the most memorable parts of the experience came not from a theorem or proof, but from a career discussion that forced me to think more deeply about research itself.
+
+## What Makes Good Mathematics?
+
+One statement from the career talk stayed with me:
+
+> Good mathematics is interpretable, structured, and interconnected.
+
+In a world increasingly driven by artificial intelligence, there is a temptation to optimize for speed alone. We can now obtain explanations, code, and even proofs faster than ever before. Yet speed without understanding can be dangerous.
+
+The speaker emphasized the importance of balancing our own thought process with the convenience of AI tools. Rather than outsourcing thinking entirely, we should use these tools to amplify understanding. The goal is not merely to arrive at answers, but to build mental models that connect ideas across fields.
+
+Perhaps that is what makes mathematics enduring: its ability to reveal structure beneath complexity.
+
+## The Future Will Reward Practicality
+
+Another observation was both simple and provocative.
+
+For many years, degrees have often served as signals of intelligence or persistence. Increasingly, however, the market appears to be shifting toward practicality. The question will become less about credentials and more about capability.
+
+Who can solve meaningful problems?
+
+Who can produce high-quality work efficiently?
+
+Who can adapt and learn quickly?
+
+The value of expertise will remain, but its demonstration may look different than it has in the past.
+
+## Choosing Research Problems
+
+One question I continuously wrestle with is:
+
+> How do you choose good research problems?
+
+The discussion offered a practical framework.
+
+### 1. Talk to People
+
+Interesting problems often emerge through conversation. Different researchers see different gaps, frustrations, and opportunities. Listening carefully can reveal questions that would never appear in a textbook.
+
+### 2. Schedule Time to Think
+
+Research does not happen only at a desk covered in papers.
+
+The suggestion was to intentionally create time for brainstorming—whether through solitary reflection, conversations with colleagues, or even structured sessions with AI tools. Creativity deserves a place on the calendar.
+
+### 3. Understand Proofs Deeply
+
+Do not stop at understanding *that* a proof works.
+
+Ask yourself:
+
+* What is the key idea?
+* How would I explain it to someone else?
+* How would I have discovered this argument myself?
+
+The deeper understanding often lies beneath the technical details.
+
+## Obsession, Openness, and Focus
+
+The speaker described strong researchers as possessing a combination of seemingly contradictory traits:
+
+* Obsessive enough to pursue difficult questions for long periods.
+* Open-minded enough to abandon assumptions when evidence points elsewhere.
+
+This resonated with me.
+
+Many of the opportunities that have shaped my academic journey came from pursuing interests deeply rather than broadly. Excellence often requires sustained attention.
+
+One piece of advice for the transition from PhD to postdoctoral research was particularly refreshing:
+
+> Do research. Don't worry.
+
+Worry creates noise. Research requires focus.
+
+When we spend too much energy on uncertainty, we lose energy for discovery. The challenge is not eliminating uncertainty but learning to work despite it.
+
+## A Personal Reminder
+
+As I reflected on the week, I realized that several of these ideas connect to notes I have kept for years.
+
+I maintain a catalog of research ideas, questions, and curiosities. Some are half-formed. Some may never become projects. Yet the advice from the summer school reminded me that important problems do not disappear simply because they are difficult. Sometimes they need time.
+
+Most importantly, I left Carnegie Mellon with a renewed conviction:
+
+If I enjoy what I am doing, and I have the opportunity to pursue it, then I should focus and do it.
+
+Research is difficult. Mathematics is difficult. Building expertise is difficult.
+
+But there is a special kind of joy in diving deeply into something that genuinely fascinates you.
+
+For me, that may have been the most valuable lesson of the week.
